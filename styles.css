@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #00796b;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Cor de fundo padrão */
+    background-image: url('fundo.png'); /* Adicione a imagem de fundo */
+    background-size: cover; /* A imagem cobre toda a tela */
+    background-position: center 20 px; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+}
+
+#fundo {
+    display: none; /* Oculta a imagem de fundo dentro do body, pois ela já está no background */
+}
+
+#game {
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semitransparente para o conteúdo do jogo */
+    max-width: 600px;
+    position: relative;
+    z-index: 1; /* Garante que o jogo fique acima do fundo */
+}
+
+h1 {
+    color: #004d40;
+}
+
+button {
+    margin: 10px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #00796b;
+    border-radius: 5px;
+}
+
+#hint {
+    color: #004d40;
+}
+
+#result, #treasure {
+    margin-top: 20px;
+}
+
+#treasure {
+    background-color: #004d40;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#treasure-image {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00796b;
+    margin-top: 10px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça ao Tesouro Pirata - Inglês</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="fundo.png" id="fundo"> 
+    <audio id="background-music" autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <div id="game">
+        <h1>Caça ao Tesouro Pirata - Aprendendo Inglês</h1>
+        <div id="level-selection">
+            <button onclick="startGame('easy')">Fácil</button>
+            <button onclick="startGame('medium')">Médio</button>
+            <button onclick="startGame('hard')">Difícil</button>
+        </div>
+        <div id="question-container" style="display: none;">
+            <p id="question"></p>
+            <input type="text" id="answer" placeholder="Sua resposta aqui">
+            <button onclick="submitAnswer()">Responder</button>
+            <p id="hint"></p>
+            <p id="timer">Tempo Restante: 5:00</p>
+        </div>
+        <div id="result" style="display: none;">
+            <p id="result-message"></p>
+            <button onclick="retryLevel()">Tentar Novamente</button>
+        </div>
+        <div id="treasure" style="display: none;">
+            <h2>Arrr! Você encontrou o tesouro!</h2>
+            <img src="13527.png" alt="Tesouro" id="treasure-image"> <!-- Substitua por uma imagem real de tesouro -->
+            <p>Você ganhou <span id="coins">0</span> moedas!</p>
+            <button onclick="startNewGame()">Jogar Novamente</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
