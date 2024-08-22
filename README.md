@@ -20,4 +20,5 @@ e se tornou um grande sucesso, gerando várias sequências. A franquia é conhec
 
 O jogo conta com um quizz de perguntas e respostas em inglês a respeito da franquia dos filmes Piratas do Caribe, com foco nos conteúdos "CAN", "COULD" & "BE ABLE TO". As imagens com elementos dos filmes, 
 a trilha sonora, o tempo para responder e a pontuação por meio de moedas deixam este jogo extremamente envolvente e divertido. 
+
 <img src="win.png" alt="Tela final de comemoração" width="400px" hight="400px">
