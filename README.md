@@ -17,6 +17,8 @@ Piratas do Caribe é uma popular franquia de filmes de aventura e fantasia produ
 A série mistura elementos de ação, humor e mitologia pirata, ambientada nos mares do Caribe durante a Era Dourada da Pirataria. O primeiro filme, "Piratas do Caribe: A Maldição do Pérola Negra," foi lançado em 2003
 e se tornou um grande sucesso, gerando várias sequências. A franquia é conhecida por seus personagens memoráveis, cenas de batalha épicas e trilha sonora icônica composta por Hans Zimmer e Klaus Badelt.  
 <img src="quizz.png" alt="Quizz" width="400px" hight="400px">
+# Regras do Game ☠️🏴‍☠️🦜
+O jogo tem 3 níveis: Fácil, Médio e Difícil. Cada nível tem 3 perguntas, respondendo todas corretamente o tesouro é encontrado. :)
 
 ## 💻🕹️ Personalização e criatividade do game
 
